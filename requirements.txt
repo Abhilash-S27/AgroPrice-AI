@@ -1,0 +1,48 @@
+# ══════════════════════════════════════════════════════════
+# AgroPrice AI — Python Dependencies
+# Install: pip install -r requirements.txt
+# ══════════════════════════════════════════════════════════
+
+# ── Web Framework ──────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9        # File uploads (reports)
+httpx==0.27.0                  # Async HTTP client
+
+# ── Data Validation ────────────────────────────────────────
+pydantic==2.7.1
+pydantic-settings==2.2.1       # .env support via BaseSettings
+
+# ── Data Engine ────────────────────────────────────────────
+duckdb==0.10.2
+pandas==2.2.2
+pyarrow==16.1.0                # Parquet read/write
+numpy==1.26.4
+
+# ── Machine Learning ───────────────────────────────────────
+prophet==1.1.5                 # Time-series forecasting
+xgboost==2.0.3                 # Gradient boosting (Phase 2)
+scikit-learn==1.4.2            # Metrics, preprocessing
+holidays==0.48                 # Indian crop holidays for Prophet
+
+# ── AI / GenAI ─────────────────────────────────────────────
+anthropic==0.28.0              # Claude API
+google-generativeai>=0.8.6     # Gemini API (0.8.6+ required for gemini-2.5-flash)
+tenacity==8.3.0                # Retry logic for API calls
+
+# ── Report Generation ──────────────────────────────────────
+openpyxl==3.1.2                # Excel reports
+reportlab==4.2.0               # PDF reports
+
+# ── Utilities ──────────────────────────────────────────────
+python-dotenv==1.0.1           # Load .env file
+structlog==24.1.0              # Structured JSON logging
+cachetools==5.3.3              # LRU in-memory cache
+python-dateutil==2.9.0
+
+# ── Development & Testing ──────────────────────────────────
+pytest==8.2.0
+pytest-asyncio==0.23.6
+pytest-cov==5.0.0
+httpx==0.27.0                  # TestClient for FastAPI
+ruff==0.4.4                    # Linter + formatter
