@@ -253,18 +253,9 @@ _run_full_decision_pipeline() [asyncio.to_thread]
 
 ## 6. Project Presentation
 
-The full project presentation is in the [`presentation/`](presentation/) folder:
+The full project presentation is available in the [`presentation/`](presentation/) folder:
 
-| File | Description |
-|------|-------------|
-| [`AgroPrice_AI_FINAL.pptx`](presentation/AgroPrice_AI_FINAL.pptx) | **Complete 39-slide deck** — architecture, system design, all phases, results |
-| [`AgroPrice_AI_GenAI_Theory.pptx`](presentation/AgroPrice_AI_GenAI_Theory.pptx) | GenAI theory slides — LLMs, grounding, guardrails, Gemini internals |
-| [`AgroPrice_AI_Slides_1_10.pptx`](presentation/AgroPrice_AI_Slides_1_10.pptx) | Slides 1–10: Problem statement, dataset, data pipeline |
-| [`AgroPrice_AI_Slides_11_19.pptx`](presentation/AgroPrice_AI_Slides_11_19.pptx) | Slides 11–19: ML forecasting, Prophet, XGBoost, confidence scoring |
-| [`AgroPrice_AI_Slides_20_29.pptx`](presentation/AgroPrice_AI_Slides_20_29.pptx) | Slides 20–29: Gemini integration, guardrails, advisor pipeline |
-| [`AgroPrice_AI_Slides_30_39.pptx`](presentation/AgroPrice_AI_Slides_30_39.pptx) | Slides 30–39: Multi-agent system, command center, results |
-
-> **Start with `AgroPrice_AI_FINAL.pptx`** for the complete picture.
+**[📊 AgroPrice_AI_FINAL.pptx](presentation/AgroPrice_AI_FINAL.pptx)** — Complete 39-slide deck covering problem statement, dataset, data pipeline, ML forecasting, Gemini integration, multi-agent system, command center, and results.
 
 ---
 
